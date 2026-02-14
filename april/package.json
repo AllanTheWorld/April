@@ -4,6 +4,10 @@
   "private": true,
   "description": "A romantic Valentine's Day website",
   "scripts": {
-    "start": "echo 'Static site ready'"
+    "start": "serve dist",
+    "build": "echo 'Nothing to build; files already in dist'"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
   }
 }
