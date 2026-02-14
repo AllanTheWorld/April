@@ -303,7 +303,7 @@ function createPhotoCard(container, filename, index) {
     cardBack.className = 'card-back';
     
     const img = document.createElement('img');
-    img.src = `image/${filename}`;
+    img.src = `/image/${filename}`;
     img.alt = `Memory ${index + 1}`;
     
     cardBack.appendChild(img);
@@ -496,3 +496,4 @@ document.addEventListener('contextmenu', function(e) {
 // Log a romantic message to console (Easter egg for developers!)
 console.log('%c💕 Happy Valentine\'s Day! 💕', 'color: #ff1f5a; font-size: 24px; font-weight: bold;');
 console.log('%cMade with love ❤️', 'color: #ff6b9d; font-size: 16px;');
+
