@@ -1,5 +1,6 @@
 {
-  "buildCommand": "",
+  "buildCommand": "echo 'Building...'",
   "outputDirectory": ".",
-  "public": true
+  "public": true,
+  "env": {}
 }
